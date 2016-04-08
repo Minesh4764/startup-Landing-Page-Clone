@@ -1,11 +1,12 @@
 html {
 
-	box-sizing: border-box;;
+	box-sizing: border-box;
 }
 body{
 
 	line-height: 1;
 }
+
 /*
 .TopNav {
 background-color: white;
@@ -62,11 +63,12 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-	.top-navigation  {
+
+.top-navigation  {
 background-color: white;
 width:100%;
 margin:0 auto;
-border-bottom: 1px solid #130101;
+border-bottom: 1.1px solid #130101;
 
 }
 
@@ -81,7 +83,7 @@ border-bottom: 1px solid #130101;
 .MainSection h1 {
 	color:white;
    margin-top :5em;
-    font-size:3.25em;
+    font-size:3.15em;
     text-align:center;
     margin-bottom:-5px;
 }
