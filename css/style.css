@@ -1,24 +1,12 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: border-box;
+html {
+
+	box-sizing: border-box;
 }
+body{
+     margin:0 8px;
+	line-height: 1;
+}
+
 
 
 .top-navigation  > .content {
@@ -55,9 +43,11 @@ position:fixed;
 font-size: 2em;
 
     }
-    .cases h2 {
-
-    }
+  .cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
     .bottom {
       width:100;
         text-align: center;
@@ -166,6 +156,7 @@ text-align:center;
 
 }
 .content {
+    width:80;
     padding: 0 0.938rem;
     margin: 0 auto;
     min-width: 37.5rem;
@@ -183,4 +174,8 @@ ol, ul {
     border: 1px solid #eaebec;
     padding: 0.625rem 0;
     text-align: center;
+}
+h5 {
+   font-size:1em;
+    text-align:center;
 }
