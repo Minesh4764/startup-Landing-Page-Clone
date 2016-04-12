@@ -10,7 +10,8 @@ body{
 
 
 .top-navigation  > .content {
-    width: 800px;
+   width: 60%;
+   min-width:20%;
     height: 70px;
     margin: 0 auto;
 }
