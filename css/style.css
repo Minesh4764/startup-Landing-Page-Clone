@@ -3,58 +3,15 @@ html {
 	box-sizing: border-box;
 }
 body{
-
+     margin:0 8px;
 	line-height: 1;
 }
 
-/*
-.TopNav {
-background-color: white;
-position: fixed;
-width:100%;
-margin:0 auto;
-border-bottom: 1px solid #130101;
-
-}
 
 
-
-ul {
-	list-style: none;
-	display:flex;
-	float:right;
-	 font-size: 1.6em;
-
-}
-.topNav .Links {
-    font-size: 1.4em;
-	margin:1.5rem;
-
-}
-
-.topnav .links li {
-	display:inline-flex;
-	margin-left: 1.5rem;
-}
-.logo {
-	padding-left:16px;
-	height:65px;
-}
-/*
-ul li {
-	  font-size: 1.2em;
-	 margin :30px;
-	background-color: white;
-	margin-top: -40px;
-	list-style-type: none;
-	float: right] */
-
-html {
-  box-sizing: border-box;
-}
-
-.top-navigation > .content {
-    width: 800px;
+.top-navigation  > .content {
+   width: 60%;
+   min-width:20%;
     height: 70px;
     margin: 0 auto;
 }
@@ -69,9 +26,64 @@ background-color: white;
 width:100%;
 margin:0 auto;
 border-bottom: 1.1px solid #130101;
+position:fixed;
+
+}
+.cases {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+  
+    
+ }
+
+    .cases h3 {
+ text-align:center;
+ font-weight:300;
+font-size: 2em;
+
+    }
+  .cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+    .bottom {
+      width:100;
+        text-align: center;
+        margin:0 auto;
+    }
+/*.cases > .content {
+width:50%;
+height:150px;
+margin:0 auto;
+align:center;
+}
+.cases h2{
+ margin-top:1em;
+ font-size: 2.5em;
+}*/
+
+.cases .devices {
+    display:inline-block;
+    width:33%;
+   height:4em;
+   border:1 px solid;
+   box-sizing:border-box;
+
+}
+/*.devices div {
+  font-size: 1.5em;
+  text-align:center;
 
 }
 
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}*/
 .MainSection {
 	    background-image: url("../images/karma.jpg");
     background-position: center bottom;
@@ -99,7 +111,7 @@ text-align:center;
 
 }
 /*.InnerBtn{
-	text-align: center;
+	text-align: enter;
 }*/
 .button{
     background-color: #f4511e;/* orange */
@@ -135,4 +147,36 @@ text-align:center;
 .logo {
 	margin-top:10px;
 	
+}
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+     color: #55acee;
+
+}
+.content {
+    width:80;
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+ol, ul {
+    list-style: none;
+    display: inline;
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+h5 {
+   font-size:1em;
+    text-align:center;
 }
